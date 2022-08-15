@@ -53,8 +53,6 @@ public class MainTests extends BaseUI {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(selectedCapitalOfUkraine)));
         driver.findElement(selectedCapitalOfUkraine).click();
-
-
     }
 
     @Test
