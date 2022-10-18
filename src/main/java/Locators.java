@@ -19,4 +19,11 @@ public class Locators {
     public static final By selectedCapitalOfUkraine = By.xpath("//li[text()='Lozova, Ukraine']");
     public static final By youtubeFrameLocator  = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
     public static final By playYoutubeButton = By.xpath("//button[@aria-label='Смотреть']");
+
+    //MainPage
+    public static final By GALLERY_LINK = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
+    public static final By PHONE_LINK = By.xpath("//a[@href='callto:18885997816']");
+
+
+
 }

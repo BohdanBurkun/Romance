@@ -17,5 +17,18 @@ public class MainTests extends BaseUI {
         mainPage.clickPlayYoutube();
 
     }
+    @Test
+    public void testGalleryLink(){
+        mainPage.clickGalleryLink();
+    }
+
+    @Test
+    public void testFooter(){
+        mainPage.jsScroll(Locators.PHONE_LINK);
+        mainPage.jsClick(Locators.PHONE_LINK);
+    }
+
+
+
 
 }
