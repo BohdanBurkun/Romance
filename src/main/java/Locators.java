@@ -24,7 +24,7 @@ public class Locators {
     public static final By GALLERY_LINK = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
     public static final By PHONE_LINK = By.xpath("//a[@href='callto:18885997816']");
 
-    //MainTabsLink
+    //MainTabs
     public static final By TABS_LINK = By.xpath("//a[contains(@class , 'nav-link')]");
 
 

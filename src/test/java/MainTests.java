@@ -31,6 +31,7 @@ public class MainTests extends BaseUI {
         mainPage.jsClick(Locators.PHONE_LINK);
     }
 
+
     @Test
     public void testMainTabs() {
         List<WebElement> tabs = driver.findElements(Locators.TABS_LINK);
