@@ -20,8 +20,14 @@ public class MainPage extends BaseActions{
         driver.switchTo().frame(youtubeIframe);
 
     }
+
     public void clickPlayYoutube(){
         driver.findElement(Locators.playYoutubeButton).click();
+    }
+
+    public void clickGalleryLink(){
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.GALLERY_LINK)));
+        mouseClick(Locators.GALLERY_LINK);
     }
 
 
